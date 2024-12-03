@@ -1,0 +1,17 @@
+https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-Git-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8
+
+在 Windows 平台必裝的三套 Git 工具
+https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/02.md
+
+The Power of Git –in a Windows Shell
+https://tortoisegit.org/
+
+
+
+建立本庫
+git init
+
+我們也可以透過指令 git add [file name] 將要納入版控的檔案逐一加入，或是直接使用 git add . 讓 git 幫我們把未加入版控的檔案都加進來，接著透過 Commit 指令來提交。
+git add .
+
+git commit -m "新增所有檔案"
