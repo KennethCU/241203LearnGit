@@ -22,5 +22,7 @@ git add a.txt b.txt
 使用 git commit 命令將更改提交並添加註解
 git commit -m "新增 a.txt 和 b.txt 文件"
 
-使用 touch 命令創建文件
+使用 touch 命令創建文件還是必須要用git add 加入檔再commit
 touch a.txt b.txt
+git add "a.txt" "b.txt"
+git commit -m "A.txt&B.txt"
