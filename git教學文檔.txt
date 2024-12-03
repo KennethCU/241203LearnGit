@@ -26,3 +26,6 @@ git commit -m "新增 a.txt 和 b.txt 文件"
 touch a.txt b.txt
 git add "a.txt" "b.txt"
 git commit -m "A.txt&B.txt"
+
+指令方式達成分支
+git branch h1
